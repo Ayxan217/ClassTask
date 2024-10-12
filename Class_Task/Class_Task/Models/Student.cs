@@ -16,21 +16,28 @@ namespace Class_Task.Models
         public bool İsGraduated;
        
 
-        public  void Getİnfo()
-        { 
-            Console.WriteLine($"Name: {Name}, Surname: {Surname}, Group: {Group}, Point: {Point}");
-        }
+       
+        
         public void CheckGradiation()
         {
-            if(İsGraduated == false)
+
+   
+           
+            if (Point>65)
             {
-                Console.WriteLine("mezun olmayıb");
+                İsGraduated = true;
+                Console.WriteLine("mezundur");
 
             }
             else
             {
-                Console.WriteLine("mezundur");
+                İsGraduated = false;
+                Console.WriteLine("mezun olmayıb");
             }
+        }
+        public void Getİnfo()
+        {
+            Console.WriteLine($"Name: {Name}, Surname: {Surname}, Group: {Group}, Point: {Point} Gratuation: {İsGraduated}");
         }
         public  void GetDiplomaDegree()
         {
@@ -49,10 +56,13 @@ namespace Class_Task.Models
                 else if(Point>80 && Point <= 90)
                 {
                     Console.WriteLine("şeref diplomu");
+                    break;
                 }
                 else if (Point >90)
                 {
                     Console.WriteLine(" yüksek şeref diplomu");
+                    break;
+
                 }
             }
         }

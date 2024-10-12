@@ -11,13 +11,14 @@ namespace Class_Task
                 Name = "Ayxan",
                 Surname = "Mammadli",
                 Group = "TK-96",
-                Point = 78,
-                İsGraduated =false
+                Point = 37,
+                
             };
 
-            student.Getİnfo();
             student.CheckGradiation();
+            student.Getİnfo();
             student.GetDiplomaDegree();
+            Console.Read();// yene console problemi
 
 
         }
