@@ -10,8 +10,8 @@ namespace Class_Task
             {
                 Name = "Ayxan",
                 Surname = "Mammadli",
-                Group = "TK-96",
-                Point = 37,
+                Group = "BP-217",
+                Point = 97,
                 
             };
 

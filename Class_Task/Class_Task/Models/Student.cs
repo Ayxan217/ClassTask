@@ -41,30 +41,29 @@ namespace Class_Task.Models
         }
         public  void GetDiplomaDegree()
         {
-          while(İsGraduated)
-            {
+          
                 if (Point < 65)
                 {
                     Console.WriteLine("diplom yoxdur");
-                    break;
+                    
                 }
                 else if(Point>=65 && Point < 80)
                 {
                     Console.WriteLine("adi diplom");
-                    break;
+                    
                 }
                 else if(Point>80 && Point <= 90)
                 {
                     Console.WriteLine("şeref diplomu");
-                    break;
+                    
                 }
                 else if (Point >90)
                 {
                     Console.WriteLine(" yüksek şeref diplomu");
-                    break;
+                    
 
                 }
-            }
+            
         }
     }
 }
