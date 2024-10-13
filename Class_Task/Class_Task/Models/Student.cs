@@ -23,7 +23,7 @@ namespace Class_Task.Models
 
    
            
-            if (Point>65)
+            if (Point>=65)
             {
                 İsGraduated = true;
                 Console.WriteLine("mezundur");
